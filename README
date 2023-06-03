@@ -1,0 +1,22 @@
+=================
+= Description: =
+=================
+in this project I've executed the game "four in a row".
+the class Game is responsible for the game logic:
+- contains a 2 dimensional list to represent the game board.
+- updating moves in  board.
+- giving the game state - who wins draw or nothing special.
+- getting the current player.
+- getting value for specific row and column.
+
+the class MyBoard in "four in a row.py" initializes and creates an instance
+of game as server or client, with gui and communication support, according to
+the input from the user (ip,port,player type).
+in this class also the logic of the game is reflected.
+
+the class Ai is responsible for making random move for Ai player.
+
+======================
+= Special comments: =
+======================
+
